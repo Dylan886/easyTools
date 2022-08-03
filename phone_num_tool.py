@@ -30,7 +30,7 @@ def completion():
 
 def completion(head, tail):
     numlist = []
-    for n in range(0, 20):
+    for n in range(0, 10000000):
         middle_num = str(n).zfill(6)
         numlist.append(head + middle_num + tail)
     print '生成完毕，共'+str(len(numlist))+'条'
